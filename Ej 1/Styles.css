@@ -1,0 +1,37 @@
+body{
+    color: #eeeeee;
+    background-color: #333333;
+    font-family: sans-serif;
+}
+a{
+    color: #aaaaaa;
+}
+.horarios{
+    text-align: center;
+}
+.tab{
+    border-collapse: collapse;
+    width: 100%;
+    border: solid 3px #aaaaaa;
+    text-align: center;
+}
+.tab, th, td{
+    padding: 3px, 5px;
+}
+.tab tr:nth-child(odd) td, .tab tr:nth-child(odd) th{
+    height:10px;
+    background: #666666;
+    border-bottom: 0;
+}
+
+.tab tr th:first-child{
+    width: 100px;
+}
+.cen{
+    text-align: center;
+    
+}
+.cen h2,.cen img{
+    display: inline;
+    text-align: middle;
+}
