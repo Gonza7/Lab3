@@ -1,37 +1,102 @@
-body{
-    color: #eeeeee;
+body {
+    color: white;
     background-color: #333333;
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
-a{
+a {
     color: #aaaaaa;
 }
-.horarios{
+.horarios {
     text-align: center;
+    margin: 0 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-top: solid 1px #222;
 }
-.tab{
+
+.tab {
     border-collapse: collapse;
     width: 100%;
     border: solid 3px #aaaaaa;
     text-align: center;
 }
-.tab, th, td{
+.tab,
+th,
+td {
     padding: 3px, 5px;
 }
-.tab tr:nth-child(odd) td, .tab tr:nth-child(odd) th{
-    height:10px;
+.tab tr:nth-child(odd) td,
+.tab tr:nth-child(odd) th {
+    height: 10px;
     background: #666666;
     border-bottom: 0;
 }
 
-.tab tr th:first-child{
+.tab tr th:first-child {
     width: 100px;
 }
-.cen{
+.cen {
     text-align: center;
-    
 }
-.cen h2,.cen img{
+.c {
+    vertical-align: middle;
+    display: inline;
+}
+.cen h2,
+.cen img {
     display: inline;
     text-align: middle;
+}
+.der {
+    text-align: right;
+    padding-right: 20px;
+    background-color: #222;
+}
+nav {
+    background-color: #222;
+    color: white;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-izquierda,
+.menu-derecha {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-izquierda li a,
+.menu-derecha li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.menu-izquierda {
+    align-items: center;
+}
+
+.menu-derecha {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-izquierda li a:hover,
+.menu-derecha li a:hover {
+    color: #ccc;
+}
+.par{
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px 100px;
+}
+h1{
+    font-size: 34px;
 }
