@@ -39,6 +39,7 @@ td {
 }
 .cen {
     text-align: center;
+    align-content: center;
 }
 .c {
     vertical-align: middle;
@@ -99,4 +100,20 @@ nav {
 }
 h1{
     font-size: 34px;
+}
+.cor{
+    border-collapse: collapse;
+    width: 100%;
+    border: solid 3px #aaaaaa;
+    text-align: center;
+    ;
+}
+.cor th, .cor td{
+    padding: 2px;
+}
+.cencor{
+    text-align: center;
+    margin: 0 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
