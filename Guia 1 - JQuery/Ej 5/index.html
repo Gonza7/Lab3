@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <br>
+    <h1>Prestamo de libros</h1>
+    <br><br><br>
+    <div>
+        <form action="">
+            <table class="tab" align="center">
+                <tr>
+                    <td><label for="">Libro:</label></td>
+                    <td>
+                        <select name="lib" id="lib">
+                            <option value="Elija una opcion">Elija una opción</option>
+                            <option value="Divergente">Divergente</option>
+                            <option value="Frozen">Frozen</option>
+                            <option value="Sirenas">Sirenas</option>
+                            <option value="Insurgente">Insurgente</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Aceptar" id="ok">
+                        <input type="button" value="Borrar" id="elim">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Fecha de devolución:</label></td>
+                    <td><input type="date" name="dev" id="dev" readonly></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

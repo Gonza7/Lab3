@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <h1>Horarios</h1>
+    <br><br><br>
+    <div>
+        <form action="">
+            <table align="center" class="tab">
+                <tr>
+                    <td><label for="">Serie:</label></td>
+                    <td>
+                        <select name="ser" id="ser">
+                            <option value="Elija una opcion">Elija una opción</option>
+                            <option value="Dr. House">Dr. House</option>
+                            <option value="Prison Break">Prison Break</option>
+                            <option value="The Walking Dead">The Walking Dead</option>
+                            <option value="Game of Thrones">Game of Thrones</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Día:</label>
+                    </td>
+                    <td>
+                        <input type="text" readonly id="dia" name="dia">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Horario:</label>
+                    </td>
+                    <td>
+                        <input type="text" readonly id="hor" name="hor">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Aceptar" id="ok">
+                        <input type="button" value="Borrar" id="elim">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
