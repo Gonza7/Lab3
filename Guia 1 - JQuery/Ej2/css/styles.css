@@ -1,0 +1,11 @@
+.tab{
+    border: 3px solid black;
+    text-align: center;
+}
+.tab td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.tab input{
+    width: 95%;
+}

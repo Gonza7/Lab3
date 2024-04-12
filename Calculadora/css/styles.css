@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+.cal{
+    align-self: center;
+    text-align: center;
+
+}
+.cal td{
+    border: 1px solid black;
+    padding: 6px;
+    width: 120px;
+}
+.lab{
+    margin-top: 5px;
+}
+input{
+    background-color: #f4f4f4;
+}

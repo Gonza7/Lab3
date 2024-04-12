@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <title>Document</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <br>
+    <h1 style="text-align: center;">Formulario</h1>
+    <br><br><br>
+    <div>
+        <table class="tab" align="center">
+            <form action="" method="get">
+            <tr>
+                <td>
+                    <label for="">Nota 1° Parcial</label>
+                </td>
+                <td>
+                    <input type="number" name="n1" id="n1" min="0" max="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Nota 2° Parcial</label>
+                </td>
+                <td>
+                    <input type="number" name="n2" id="n2" min="0" max="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Asistencia</label>
+                </td>
+                <td>
+                    <select name="as" id="as" style="width: 100%;">
+                        <option value="0">0</option>
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                        <option value="60">60</option>
+                        <option value="70">70</option>
+                        <option value="80">80</option>
+                        <option value="90">90</option>
+                        <option value="100">100</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" id="estado" value="Estado">
+                </td>
+                <td>
+                    <input type="text" readonly id="es" name="es">
+                </td>
+            </tr>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
