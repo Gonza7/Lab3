@@ -1,0 +1,8 @@
+<!-- <option value="Notebook Vaio Intel Core I3">Notebook Vaio Intel Core I3</option>
+                            <option value="Notebook Lenovo Intel Core I7">Notebook Lenovo Intel Core I7</option>
+                            <option value="Notebook Compaq Intel Core I7">Notebook COMPAQ Intel Core I7</option>
+                            <option value="Notebook RCA Intel Core I3">Notebook RCA Intel Core I3</option>
+                            <option value="Notebook Positivo BGH Intel Core I7">Notebook Positivo BGH Intel Core I7</option>     
+                            <option value="Impresora Multifunción HP">Impresora Multifunción HP</option>
+                            <option value="Tablet Philco Intel 16 GB">Tablet Philco Intel 16 GB</option>
+                            <option value="Tablet Huawei 16 GB">Tablet Huawei 16 GB</option>-->

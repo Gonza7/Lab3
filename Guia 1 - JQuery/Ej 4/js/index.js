@@ -5,13 +5,17 @@ $("document").ready(function(){
     let edad = hoy.getFullYear() - fn.getFullYear();
     let m = hoy.getMonth() - fn.getMonth();
     let d = hoy.getDate() - fn.getDate();
+    console.log(hoy.getMonth());
+    console.log(hoy.getDate());
+    console.log(fn.getMonth());
+    console.log(fn.getDate());
     if(m<0||(m==0&&d<=0)){
         edad--;
     }
-    if(edad<0||(edad==0&&m<0)||(edad==0&&m==0&&d<0)){
-        alert("Ingrese una fecha válida");
-    }else{
+    if(edad>=0){
         $("#edad").val(edad);
+    }else{
+        alert("Ingrese una fecha valida");
     }
    });
    $("#elim").click(function(){

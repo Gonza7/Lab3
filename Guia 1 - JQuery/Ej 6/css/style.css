@@ -1,0 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.tab{
+    border: 3px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tab td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.tab input, .tab select{
+    width: 95%;
+}
+.tab input[type="button"]:first-child{
+    margin-bottom: 7px;
+}
+.tab:last-child input[type="button"]:first-child{
+    margin-bottom: 0px;
+}
