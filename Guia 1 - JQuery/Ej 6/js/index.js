@@ -2,10 +2,14 @@ $("document").ready(function(){
     $("#cant1").prop('disabled',true);
     $("#cant2").prop('disabled',true);
     $("#cant3").prop('disabled',true);
+    $("#s1").prop('disabled',true);
+    $("#s2").prop('disabled',true);
+    $("#s3").prop('disabled',true);
     $("#art1").change(function(){
         var art= $("#art1").val();
         $("#pu1").val(parseFloat(art));
         $("#cant1").prop('disabled',false);
+        $("#s1").prop('disabled',false);
         $("#s1").click(function(){
             let cant= parseFloat($("#cant1").val());
             if(art!="Elija una opcion"){
@@ -25,6 +29,7 @@ $("document").ready(function(){
         var art= $("#art2").val();
         $("#pu2").val(parseFloat(art));
         $("#cant2").prop('disabled',false);
+        $("#s2").prop('disabled',false);
         $("#s2").click(function(){
             let cant= parseFloat($("#cant2").val());
             if(art!="Elija una opcion"){
@@ -44,6 +49,7 @@ $("document").ready(function(){
         var art= $("#art3").val();
         $("#pu3").val(parseFloat(art));
         $("#cant3").prop('disabled',false);
+        $("#s3").prop('disabled',false);
         $("#s3").click(function(){
             let cant= parseFloat($("#cant3").val());
             if(art!="Elija una opcion"){
@@ -78,5 +84,11 @@ $("document").ready(function(){
     $("#elim").click(function(){
         $("#art1,#art2,#art3").val("Elija una opcion");
         $("#t,#sub1,#sub2,#sub3,#cant1,#cant2,#cant3,#pu1,#pu2,#pu3").val(null);
+        $("#cant1").prop('disabled',true);
+        $("#cant2").prop('disabled',true);
+        $("#cant3").prop('disabled',true);
+        $("#s1").prop('disabled',true);
+        $("#s2").prop('disabled',true);
+        $("#s3").prop('disabled',true);
     });
 });

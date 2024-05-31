@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tab{
+    border: 3px solid black;
+    text-align: center;
+}
+.tab td, .tab th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.tab input, .tab select{
+    width: 95%;
+}
+h1{
+    text-align: center;
+}
+.tab tr:last-child td input:first-child{
+    margin-bottom: 5px;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}

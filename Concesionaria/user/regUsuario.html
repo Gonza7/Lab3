@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="..\jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="user.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar usuario</h1>
+    <div>
+        <form action="procRegUsuario.php" method="post">
+            <table class="tab" align="center">
+                <tr>
+                    <td><label for="">Nombre:</label></td>
+                    <td><input type="text" name="nom" id="nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Contraseña</label></td>
+                    <td><input type="text" name="cont" id="cont" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="">Repetir contraseña</label></td>
+                    <td><input type="text" name="cont2" id="cont2" disabled></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Registrar" id="reg" disabled></td>
+                    <td><input type="reset" value="Borrar" id="bor" disabled></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a href="../index.html">Volver</a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

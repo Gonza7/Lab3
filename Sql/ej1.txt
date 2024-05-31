@@ -1,0 +1,20 @@
+1) INSERT INTO alumno(dni, fecha_nacimiento, apeynom, ciudad, domicilio, telefono, mail, genero) VALUES (10000000,"2000-10-12","Perez, Juan", "Rio Grande","San Martin 1000","12345678","a@gmail.com","Masculino"),
+(10000001,"2000-10-12","Perez, Jose", "Ushuaia","San Martin 1000","12345678","a@gmail.com","Masculino"),
+(10000002,"2000-10-12","Perez, Juana", "Rio Grande","San Martin 1000","12345678","a@gmail.com","Femenino"),
+(10000003,"2000-10-12","Lopez, Martina", "Tolhuin","San Martin 1000","12345678","a@gmail.com","Femenino"),
+(10000004,"2000-10-12","Gomez, Nicolas", "Ushuaia","San Martin 1000","12345678","a@gmail.com","Masculino"),
+(10000005,"2000-10-12","Perez, Alberto", "Ushuaia","San Martin 1000","12345678","a@gmail.com","Masculino"),
+(10000006,"2000-10-12","Gomez, Juana", "Rio Grande","San Martin 1000","12345678","a@gmail.com","Femenino"),
+(10000007,"2000-10-12","Gonzalez, Martina", "Tolhuin","San Martin 1000","12345678","a@gmail.com","Femenino"),
+(10000008,"2000-10-12","Lopez, Jose", "Tolhuin","San Martin 1000","12345678","a@gmail.com","Masculino"),
+(10000009,"2000-10-12","Rodriguez, Juana", "Rio Grande","San Martin 1000","12345678","a@gmail.com","Femenino")
+
+2) UPDATE alumno SET apeynom=CONCAT(apeynom," Carla") WHERE genero LIKE "Femenino"
+UPDATE alumno SET apeynom=CONCAT(apeynom," Carlos") WHERE genero LIKE "Masculino"
+
+3) DELETE FROM alumno ORDER BY id_alumno DESC LIMIT 1;
+
+4) SELECT * FROM alumno WHERE ciudad LIKE "Rio Grande"
+SELECT * FROM alumno WHERE ciudad LIKE "Tolhuin"
+SELECT * FROM alumno WHERE ciudad LIKE "Ushuaia"
+SELECT * FROM alumno WHERE ciudad in ("Rio Grande", "Ushuaia")

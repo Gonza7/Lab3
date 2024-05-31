@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="regAlumno.html">Registro de Alumno</a></li>
+            <li><a href="listAlumno.php">Listado de Alumnos</a></li>
+            <li><a href="regMateria.html">Registro de Materia</a></li>
+            <li><a href="listMateria.php">Listado de Materias</a></li>
+            <li><a href="regCursada.php">Registro de Cursada</a></li>
+            <li><a href="listCursada.php">Listado de Cursadas</a></li>
+        </ul>
+    </nav><br>
+    <div>
+        <h1>Registro de materia</h1>
+        <form action="procRegMateria.php" method="post">
+        <table align="center" class="tab">
+            <tr>
+                <td><label for="">Nombre:</label></td>
+                <td><input type="text" name="nom" id="nom" class="bbb"></td>
+            </tr>
+            <tr>
+                <td><label for="">Cantidad de horas:</label></td>
+                <td><input type="number" name="hs" id="hs" class="bbb"></td>
+            </tr>
+            <tr>
+                <td><label for="">Tiene correlativas:</label></td>
+                <td>
+                    <span>Si</span><input type="radio" name="cor" id="si" value="si" class="aaa">
+                    <span>No</span><input type="radio" name="cor" id="no" value="no" class="aaa">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Curso:</label></td>
+                <td>
+                    <select name="cur" id="cur">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="enviar" id="enviar" value="Enviar">
+                    <input type="reset" value="Borrar" id="borrar" name="borrar"></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+</body>
+</html>
